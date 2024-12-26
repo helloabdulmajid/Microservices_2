@@ -18,7 +18,7 @@ public class Question {
     private String option3;
     private String option4;
     private String rightAnswer;
-    private String difficultyLevel;
+    private String difficultylevel;
     private String category;
 
     public Integer getId() {
@@ -77,12 +77,12 @@ public class Question {
         this.rightAnswer = rightAnswer;
     }
 
-    public String getDifficultyLevel() {
-        return difficultyLevel;
+    public String getDifficultylevel() {
+        return difficultylevel;
     }
 
-    public void setDifficultyLevel(String difficultyLevel) {
-        this.difficultyLevel = difficultyLevel;
+    public void setDifficultylevel(String difficultylevel) {
+        this.difficultylevel = difficultylevel;
     }
 
     public String getCategory() {
@@ -103,7 +103,7 @@ public class Question {
                 ", option3='" + option3 + '\'' +
                 ", option4='" + option4 + '\'' +
                 ", rightAnswer='" + rightAnswer + '\'' +
-                ", difficultyLevel='" + difficultyLevel + '\'' +
+                ", difficultyLevel='" + difficultylevel + '\'' +
                 ", category='" + category + '\'' +
                 '}';
     }
